@@ -1,6 +1,6 @@
 # System One Coherence
 
-Experiment code and recorded results for **Do System One Decisions Add Up? A Study of Probabilistic Coherence**, by Saman Sarker Joy, Faculty of Computer Science and Information Technology, Universiti Malaya, Kuala Lumpur, Malaysia.
+Experiment code and recorded results for **Do System One Decisions Add Up? A Study of Probabilistic Coherence**, by Saman Sarker Joy.
 
 This repository examines whether decision probabilities agree when the same classification problem is asked directly or broken into broad categories and finer choices. It contains the completed Jev and English Laya evaluation: question construction, native responses, normalized predictions, statistical analysis, robustness audits, and scientific plots.
 
@@ -165,8 +165,6 @@ Download sources and checksums are in data/manifest.json. Dataset examples, prov
 
 ## Author
 
-Saman Sarker Joy  
-Faculty of Computer Science and Information Technology  
-Universiti Malaya, Kuala Lumpur, Malaysia
+Saman Sarker Joy
 
 Repository: [samanjoy2/system-one-coherence](https://github.com/samanjoy2/system-one-coherence).
