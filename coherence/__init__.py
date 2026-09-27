@@ -1,0 +1,1 @@
+"""Structural probability coherence study."""

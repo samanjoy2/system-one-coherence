@@ -1,0 +1,1469 @@
+[
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 2,
+    "n": 2,
+    "confidence": 0.17085858585858585,
+    "accuracy": 0.0
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 3,
+    "n": 5,
+    "confidence": 0.24753535353535355,
+    "accuracy": 0.4
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 4,
+    "n": 23,
+    "confidence": 0.3044224857268336,
+    "accuracy": 0.34782608695652173
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 5,
+    "n": 17,
+    "confidence": 0.3647712418300654,
+    "accuracy": 0.29411764705882354
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 6,
+    "n": 35,
+    "confidence": 0.4336450216450216,
+    "accuracy": 0.5142857142857142
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 7,
+    "n": 54,
+    "confidence": 0.5020445192667415,
+    "accuracy": 0.5555555555555556
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 8,
+    "n": 40,
+    "confidence": 0.5639848484848484,
+    "accuracy": 0.575
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 9,
+    "n": 49,
+    "confidence": 0.6269305297876726,
+    "accuracy": 0.6326530612244898
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 10,
+    "n": 61,
+    "confidence": 0.6974350057956614,
+    "accuracy": 0.8688524590163934
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 11,
+    "n": 45,
+    "confidence": 0.766962962962963,
+    "accuracy": 0.7777777777777778
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 12,
+    "n": 68,
+    "confidence": 0.8352480689245396,
+    "accuracy": 0.8970588235294118
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 13,
+    "n": 55,
+    "confidence": 0.8923636363636366,
+    "accuracy": 0.9454545454545454
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 14,
+    "n": 46,
+    "confidence": 0.962039964866052,
+    "accuracy": 0.9347826086956522
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 3,
+    "n": 14,
+    "confidence": 0.2358655844155844,
+    "accuracy": 0.14285714285714285
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 4,
+    "n": 40,
+    "confidence": 0.29890060606060603,
+    "accuracy": 0.325
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 5,
+    "n": 52,
+    "confidence": 0.3659515151515152,
+    "accuracy": 0.34615384615384615
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 6,
+    "n": 58,
+    "confidence": 0.42837223963775684,
+    "accuracy": 0.5344827586206896
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 7,
+    "n": 53,
+    "confidence": 0.4992548313321898,
+    "accuracy": 0.5283018867924528
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 8,
+    "n": 76,
+    "confidence": 0.5672060473152577,
+    "accuracy": 0.7763157894736842
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 9,
+    "n": 48,
+    "confidence": 0.6328840067340068,
+    "accuracy": 0.7083333333333334
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 10,
+    "n": 47,
+    "confidence": 0.6975818181818182,
+    "accuracy": 0.6808510638297872
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 11,
+    "n": 43,
+    "confidence": 0.765736434108527,
+    "accuracy": 0.6744186046511628
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 12,
+    "n": 39,
+    "confidence": 0.8311589743589743,
+    "accuracy": 0.7948717948717948
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 13,
+    "n": 19,
+    "confidence": 0.9026473684210525,
+    "accuracy": 0.7894736842105263
+  },
+  {
+    "model": "jev",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 14,
+    "n": 11,
+    "confidence": 0.9531727272727271,
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 3,
+    "n": 2,
+    "confidence": 0.22106060606060607,
+    "accuracy": 0.5
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 4,
+    "n": 3,
+    "confidence": 0.3043097643097643,
+    "accuracy": 0.3333333333333333
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 5,
+    "n": 6,
+    "confidence": 0.3613131313131313,
+    "accuracy": 0.0
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 6,
+    "n": 8,
+    "confidence": 0.42281565656565656,
+    "accuracy": 0.25
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 7,
+    "n": 17,
+    "confidence": 0.510600118835413,
+    "accuracy": 0.5294117647058824
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 8,
+    "n": 31,
+    "confidence": 0.5700651678071033,
+    "accuracy": 0.45161290322580644
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 9,
+    "n": 22,
+    "confidence": 0.6290587695133151,
+    "accuracy": 0.6818181818181818
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 10,
+    "n": 25,
+    "confidence": 0.7080525252525253,
+    "accuracy": 0.68
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 11,
+    "n": 37,
+    "confidence": 0.7625907725907726,
+    "accuracy": 0.8108108108108109
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 12,
+    "n": 48,
+    "confidence": 0.837885101010101,
+    "accuracy": 0.8541666666666666
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 13,
+    "n": 84,
+    "confidence": 0.9037397787397788,
+    "accuracy": 0.9166666666666666
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 14,
+    "n": 717,
+    "confidence": 0.989636955327332,
+    "accuracy": 0.9804741980474198
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 1,
+    "n": 1,
+    "confidence": 0.1281,
+    "accuracy": 0.0
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 2,
+    "n": 16,
+    "confidence": 0.17026243686868686,
+    "accuracy": 0.1875
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 3,
+    "n": 33,
+    "confidence": 0.23618445056626874,
+    "accuracy": 0.30303030303030304
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 4,
+    "n": 52,
+    "confidence": 0.30190974213777244,
+    "accuracy": 0.34615384615384615
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 5,
+    "n": 52,
+    "confidence": 0.36494889277389275,
+    "accuracy": 0.2692307692307692
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 6,
+    "n": 72,
+    "confidence": 0.4333746212121212,
+    "accuracy": 0.375
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 7,
+    "n": 73,
+    "confidence": 0.501496388542964,
+    "accuracy": 0.4794520547945205
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 8,
+    "n": 67,
+    "confidence": 0.5640603497663199,
+    "accuracy": 0.43283582089552236
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 9,
+    "n": 42,
+    "confidence": 0.626360076960077,
+    "accuracy": 0.5238095238095238
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 10,
+    "n": 51,
+    "confidence": 0.6989438160571851,
+    "accuracy": 0.6470588235294118
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 11,
+    "n": 40,
+    "confidence": 0.7699909343434344,
+    "accuracy": 0.75
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 12,
+    "n": 74,
+    "confidence": 0.8353490854490854,
+    "accuracy": 0.7972972972972973
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 13,
+    "n": 78,
+    "confidence": 0.9043949494949496,
+    "accuracy": 0.8461538461538461
+  },
+  {
+    "model": "jev",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 14,
+    "n": 349,
+    "confidence": 0.9848423895111574,
+    "accuracy": 0.9598853868194842
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 3,
+    "n": 6,
+    "confidence": 0.23619528619528618,
+    "accuracy": 0.0
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 4,
+    "n": 9,
+    "confidence": 0.3064983164983166,
+    "accuracy": 0.2222222222222222
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 5,
+    "n": 21,
+    "confidence": 0.36792207792207793,
+    "accuracy": 0.2857142857142857
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 6,
+    "n": 29,
+    "confidence": 0.4388714733542321,
+    "accuracy": 0.4482758620689655
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 7,
+    "n": 29,
+    "confidence": 0.5065447579240683,
+    "accuracy": 0.3793103448275862
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 8,
+    "n": 41,
+    "confidence": 0.5652993348115299,
+    "accuracy": 0.6097560975609756
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 9,
+    "n": 34,
+    "confidence": 0.6276292335115865,
+    "accuracy": 0.6470588235294118
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 10,
+    "n": 51,
+    "confidence": 0.700326797385621,
+    "accuracy": 0.5882352941176471
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 11,
+    "n": 45,
+    "confidence": 0.7643815937149272,
+    "accuracy": 0.7111111111111111
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 12,
+    "n": 56,
+    "confidence": 0.8324531024531024,
+    "accuracy": 0.8035714285714286
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 13,
+    "n": 93,
+    "confidence": 0.9005224285869446,
+    "accuracy": 0.8709677419354839
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 14,
+    "n": 586,
+    "confidence": 0.9879015410073432,
+    "accuracy": 0.9658703071672355
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 2,
+    "n": 3,
+    "confidence": 0.16756902356902356,
+    "accuracy": 0.0
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 3,
+    "n": 14,
+    "confidence": 0.24970714285714288,
+    "accuracy": 0.2857142857142857
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 4,
+    "n": 27,
+    "confidence": 0.30386952049488525,
+    "accuracy": 0.2962962962962963
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 5,
+    "n": 39,
+    "confidence": 0.37199160839160844,
+    "accuracy": 0.15384615384615385
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 6,
+    "n": 70,
+    "confidence": 0.4320735930735931,
+    "accuracy": 0.3
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 7,
+    "n": 71,
+    "confidence": 0.503094906814625,
+    "accuracy": 0.36619718309859156
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 8,
+    "n": 90,
+    "confidence": 0.5646935578002245,
+    "accuracy": 0.5555555555555556
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 9,
+    "n": 88,
+    "confidence": 0.6280486111111111,
+    "accuracy": 0.5454545454545454
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 10,
+    "n": 74,
+    "confidence": 0.695958149058149,
+    "accuracy": 0.6891891891891891
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 11,
+    "n": 66,
+    "confidence": 0.7663520355065808,
+    "accuracy": 0.6363636363636364
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 12,
+    "n": 85,
+    "confidence": 0.8338067023172907,
+    "accuracy": 0.7647058823529411
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 13,
+    "n": 104,
+    "confidence": 0.9042838869463871,
+    "accuracy": 0.875
+  },
+  {
+    "model": "jev",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 14,
+    "n": 269,
+    "confidence": 0.9798749840411551,
+    "accuracy": 0.9553903345724907
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 1,
+    "n": 34,
+    "confidence": 0.10971708246238228,
+    "accuracy": 0.029411764705882353
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 2,
+    "n": 87,
+    "confidence": 0.16654583647971558,
+    "accuracy": 0.14942528735632185
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 3,
+    "n": 60,
+    "confidence": 0.22799930928673987,
+    "accuracy": 0.21666666666666667
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 4,
+    "n": 35,
+    "confidence": 0.30041692015119426,
+    "accuracy": 0.22857142857142856
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 5,
+    "n": 35,
+    "confidence": 0.3621201689510156,
+    "accuracy": 0.17142857142857143
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 6,
+    "n": 22,
+    "confidence": 0.43109351010950797,
+    "accuracy": 0.2727272727272727
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 7,
+    "n": 28,
+    "confidence": 0.4937504188911594,
+    "accuracy": 0.39285714285714285
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 8,
+    "n": 22,
+    "confidence": 0.564057548454595,
+    "accuracy": 0.2727272727272727
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 9,
+    "n": 12,
+    "confidence": 0.6323919390976936,
+    "accuracy": 0.25
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 10,
+    "n": 23,
+    "confidence": 0.70233197455618,
+    "accuracy": 0.43478260869565216
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 11,
+    "n": 15,
+    "confidence": 0.7623503223205094,
+    "accuracy": 0.3333333333333333
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 12,
+    "n": 21,
+    "confidence": 0.8342258674301807,
+    "accuracy": 0.38095238095238093
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 13,
+    "n": 29,
+    "confidence": 0.8956889242233429,
+    "accuracy": 0.27586206896551724
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "flat",
+    "bin": 14,
+    "n": 77,
+    "confidence": 0.9853226731300561,
+    "accuracy": 0.5974025974025974
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 1,
+    "n": 5,
+    "confidence": 0.11740288666197655,
+    "accuracy": 0.2
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 2,
+    "n": 13,
+    "confidence": 0.16970252934403585,
+    "accuracy": 0.07692307692307693
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 3,
+    "n": 35,
+    "confidence": 0.24187006543326167,
+    "accuracy": 0.2571428571428571
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 4,
+    "n": 55,
+    "confidence": 0.30507848924195036,
+    "accuracy": 0.3090909090909091
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 5,
+    "n": 83,
+    "confidence": 0.3699879227536251,
+    "accuracy": 0.21686746987951808
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 6,
+    "n": 78,
+    "confidence": 0.4337518373158088,
+    "accuracy": 0.24358974358974358
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 7,
+    "n": 61,
+    "confidence": 0.49903619201136673,
+    "accuracy": 0.16393442622950818
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 8,
+    "n": 30,
+    "confidence": 0.5637546657560616,
+    "accuracy": 0.3
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 9,
+    "n": 24,
+    "confidence": 0.6302298931477769,
+    "accuracy": 0.4166666666666667
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 10,
+    "n": 17,
+    "confidence": 0.6952044937292069,
+    "accuracy": 0.35294117647058826
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 11,
+    "n": 20,
+    "confidence": 0.7700277554982955,
+    "accuracy": 0.5
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 12,
+    "n": 18,
+    "confidence": 0.8385846997286138,
+    "accuracy": 0.6111111111111112
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 13,
+    "n": 31,
+    "confidence": 0.9026616029614083,
+    "accuracy": 0.8064516129032258
+  },
+  {
+    "model": "laya",
+    "dataset": "trec",
+    "structure": "marginal",
+    "bin": 14,
+    "n": 30,
+    "confidence": 0.9640141929054009,
+    "accuracy": 0.8666666666666667
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 0,
+    "n": 14,
+    "confidence": 0.05959730298645417,
+    "accuracy": 0.14285714285714285
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 1,
+    "n": 152,
+    "confidence": 0.10334162583751402,
+    "accuracy": 0.07236842105263158
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 2,
+    "n": 191,
+    "confidence": 0.16517493489980964,
+    "accuracy": 0.1099476439790576
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 3,
+    "n": 110,
+    "confidence": 0.23338317683174714,
+    "accuracy": 0.13636363636363635
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 4,
+    "n": 98,
+    "confidence": 0.3002730593151506,
+    "accuracy": 0.15306122448979592
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 5,
+    "n": 80,
+    "confidence": 0.36240802785799087,
+    "accuracy": 0.1375
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 6,
+    "n": 48,
+    "confidence": 0.4282003923392507,
+    "accuracy": 0.1875
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 7,
+    "n": 51,
+    "confidence": 0.4996812349358062,
+    "accuracy": 0.11764705882352941
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 8,
+    "n": 32,
+    "confidence": 0.5706976278110406,
+    "accuracy": 0.28125
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 9,
+    "n": 25,
+    "confidence": 0.6303478916801075,
+    "accuracy": 0.28
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 10,
+    "n": 29,
+    "confidence": 0.6950113462114459,
+    "accuracy": 0.3448275862068966
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 11,
+    "n": 25,
+    "confidence": 0.7596713558010647,
+    "accuracy": 0.36
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 12,
+    "n": 21,
+    "confidence": 0.8352952456204259,
+    "accuracy": 0.42857142857142855
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 13,
+    "n": 27,
+    "confidence": 0.9046058646246922,
+    "accuracy": 0.6296296296296297
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "flat",
+    "bin": 14,
+    "n": 97,
+    "confidence": 0.9853179412892077,
+    "accuracy": 0.8247422680412371
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 0,
+    "n": 5,
+    "confidence": 0.06029939906716018,
+    "accuracy": 0.0
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 1,
+    "n": 161,
+    "confidence": 0.10737432224823444,
+    "accuracy": 0.18633540372670807
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 2,
+    "n": 206,
+    "confidence": 0.16412379240183184,
+    "accuracy": 0.3058252427184466
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 3,
+    "n": 112,
+    "confidence": 0.2316189402762992,
+    "accuracy": 0.32142857142857145
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 4,
+    "n": 71,
+    "confidence": 0.2977485837055106,
+    "accuracy": 0.36619718309859156
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 5,
+    "n": 71,
+    "confidence": 0.3641435280545798,
+    "accuracy": 0.39436619718309857
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 6,
+    "n": 51,
+    "confidence": 0.43108801996283447,
+    "accuracy": 0.43137254901960786
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 7,
+    "n": 46,
+    "confidence": 0.5030175289465814,
+    "accuracy": 0.5217391304347826
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 8,
+    "n": 30,
+    "confidence": 0.5665624537737759,
+    "accuracy": 0.4666666666666667
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 9,
+    "n": 29,
+    "confidence": 0.6290387674045363,
+    "accuracy": 0.6896551724137931
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 10,
+    "n": 35,
+    "confidence": 0.7068557489347523,
+    "accuracy": 0.8571428571428571
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 11,
+    "n": 34,
+    "confidence": 0.7613877441883494,
+    "accuracy": 0.7352941176470589
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 12,
+    "n": 40,
+    "confidence": 0.8331685351092675,
+    "accuracy": 0.775
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 13,
+    "n": 51,
+    "confidence": 0.8973320863116794,
+    "accuracy": 0.8627450980392157
+  },
+  {
+    "model": "laya",
+    "dataset": "clinc",
+    "structure": "marginal",
+    "bin": 14,
+    "n": 58,
+    "confidence": 0.9632195813039802,
+    "accuracy": 0.8793103448275862
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 0,
+    "n": 32,
+    "confidence": 0.06089871241610982,
+    "accuracy": 0.09375
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 1,
+    "n": 382,
+    "confidence": 0.10103443634246854,
+    "accuracy": 0.08638743455497382
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 2,
+    "n": 201,
+    "confidence": 0.16129736866542568,
+    "accuracy": 0.16417910447761194
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 3,
+    "n": 96,
+    "confidence": 0.22970983403111725,
+    "accuracy": 0.1875
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 4,
+    "n": 66,
+    "confidence": 0.2979814511923356,
+    "accuracy": 0.3333333333333333
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 5,
+    "n": 33,
+    "confidence": 0.363424511832157,
+    "accuracy": 0.42424242424242425
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 6,
+    "n": 16,
+    "confidence": 0.4333135720027772,
+    "accuracy": 0.5
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 7,
+    "n": 27,
+    "confidence": 0.4915094856186725,
+    "accuracy": 0.4074074074074074
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 8,
+    "n": 14,
+    "confidence": 0.5616351557244766,
+    "accuracy": 0.42857142857142855
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 9,
+    "n": 12,
+    "confidence": 0.6288928140629191,
+    "accuracy": 0.5833333333333334
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 10,
+    "n": 17,
+    "confidence": 0.7011149463048041,
+    "accuracy": 0.5294117647058824
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 11,
+    "n": 15,
+    "confidence": 0.7675008539745591,
+    "accuracy": 0.8
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 12,
+    "n": 16,
+    "confidence": 0.8385928104522138,
+    "accuracy": 0.75
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 13,
+    "n": 19,
+    "confidence": 0.8961905857292475,
+    "accuracy": 0.8421052631578947
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "flat",
+    "bin": 14,
+    "n": 54,
+    "confidence": 0.9806700836904961,
+    "accuracy": 0.6296296296296297
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 1,
+    "n": 22,
+    "confidence": 0.11213819943474879,
+    "accuracy": 0.045454545454545456
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 2,
+    "n": 95,
+    "confidence": 0.1711186794708454,
+    "accuracy": 0.14736842105263157
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 3,
+    "n": 137,
+    "confidence": 0.23430838003902502,
+    "accuracy": 0.11678832116788321
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 4,
+    "n": 147,
+    "confidence": 0.302473385471711,
+    "accuracy": 0.1292517006802721
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 5,
+    "n": 124,
+    "confidence": 0.36291815278508743,
+    "accuracy": 0.20967741935483872
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 6,
+    "n": 95,
+    "confidence": 0.43270508646653727,
+    "accuracy": 0.30526315789473685
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 7,
+    "n": 72,
+    "confidence": 0.49917677847902886,
+    "accuracy": 0.4305555555555556
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 8,
+    "n": 58,
+    "confidence": 0.5705836352763112,
+    "accuracy": 0.603448275862069
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 9,
+    "n": 52,
+    "confidence": 0.6336026446085292,
+    "accuracy": 0.4807692307692308
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 10,
+    "n": 38,
+    "confidence": 0.7000730872051953,
+    "accuracy": 0.5526315789473685
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 11,
+    "n": 43,
+    "confidence": 0.7666244180148124,
+    "accuracy": 0.6976744186046512
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 12,
+    "n": 29,
+    "confidence": 0.8339739935125504,
+    "accuracy": 0.7931034482758621
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 13,
+    "n": 38,
+    "confidence": 0.8992884230009492,
+    "accuracy": 0.6842105263157895
+  },
+  {
+    "model": "laya",
+    "dataset": "massive",
+    "structure": "marginal",
+    "bin": 14,
+    "n": 50,
+    "confidence": 0.977585246052287,
+    "accuracy": 0.68
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "github": {
+    "clinc/oos-eval": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+    "jaredpalmer/kev": "5920c5fe4ca8e0970ed4209ac2c9b8e18bea5109",
+    "NandhaKishorM/laya": "4066d5d5fbf08b66c6757ddeedbd797bd7655bc0"
+  },
+  "models": {
+    "Qwen/Qwen3.5-4B-Base": "1001bb4d826a52d1f399e183466143f4da7b741b",
+    "jaredpalmer/kev-4b": "139fdd94f1b6a6ad80cc15e08fcb99cac885a101",
+    "convaiinnovations/laya": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+  },
+  "trec_revision": "eb1e45c1ba990fecca7cf84b67ce845edbcf49bf",
+  "trec_parquet_revision": "65752bf53af25bc935a0dce92fb5b6c930728450"
+}

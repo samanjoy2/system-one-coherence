@@ -1,0 +1,188 @@
+{
+  "datasets": {
+    "clinc": {
+      "n": 1000,
+      "represented_children": 150,
+      "declared_children": 150,
+      "minimum_stratum": 6,
+      "maximum_stratum": 7,
+      "duplicate_text_count": 0,
+      "absent_test_labels": []
+    },
+    "massive": {
+      "n": 1000,
+      "represented_children": 59,
+      "declared_children": 60,
+      "minimum_stratum": 1,
+      "maximum_stratum": 19,
+      "duplicate_text_count": 2,
+      "absent_test_labels": [
+        "cooking_query"
+      ]
+    },
+    "trec": {
+      "n": 500,
+      "represented_children": 42,
+      "declared_children": 50,
+      "minimum_stratum": 1,
+      "maximum_stratum": 123,
+      "duplicate_text_count": 0,
+      "absent_test_labels": [
+        "ENTY:cremat",
+        "ENTY:letter",
+        "ENTY:religion",
+        "ENTY:symbol",
+        "ENTY:word",
+        "NUM:code",
+        "NUM:ord",
+        "NUM:volsize"
+      ]
+    }
+  },
+  "runs": [
+    {
+      "model": "jev",
+      "run": "2fe3e2568b2e7018",
+      "permutation": 0,
+      "repeat": 2,
+      "precision": "provider",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "jev",
+      "run": "3b7ae2b131c9b5b0",
+      "permutation": 1,
+      "repeat": 0,
+      "precision": "provider",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "jev",
+      "run": "4b4f5113eebd197b",
+      "permutation": 4,
+      "repeat": 0,
+      "precision": "provider",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "jev",
+      "run": "5fcd995788ae30a1",
+      "permutation": 0,
+      "repeat": 1,
+      "precision": "provider",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "jev",
+      "run": "8071ea15384eea04",
+      "permutation": 3,
+      "repeat": 0,
+      "precision": "provider",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "jev",
+      "run": "b3b4623eb4051fc7",
+      "permutation": 2,
+      "repeat": 0,
+      "precision": "provider",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "jev",
+      "run": "ca3fd3d5f7377071",
+      "permutation": 0,
+      "repeat": 0,
+      "precision": "provider",
+      "counts": {
+        "clinc": 1000,
+        "massive": 1000,
+        "trec": 500
+      }
+    },
+    {
+      "model": "laya",
+      "run": "2d2420be044d210d",
+      "permutation": 4,
+      "repeat": 0,
+      "precision": "fp32",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "laya",
+      "run": "87a195617489ca3a",
+      "permutation": 3,
+      "repeat": 0,
+      "precision": "fp32",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "laya",
+      "run": "9b8dbcde9e9df7e5",
+      "permutation": 1,
+      "repeat": 0,
+      "precision": "fp32",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    },
+    {
+      "model": "laya",
+      "run": "a6f8115b3cb88dc5",
+      "permutation": 0,
+      "repeat": 0,
+      "precision": "fp32",
+      "counts": {
+        "clinc": 1000,
+        "massive": 1000,
+        "trec": 500
+      }
+    },
+    {
+      "model": "laya",
+      "run": "c447f52c7cd9ad9d",
+      "permutation": 2,
+      "repeat": 0,
+      "precision": "fp32",
+      "counts": {
+        "massive": 30,
+        "clinc": 30,
+        "trec": 30
+      }
+    }
+  ]
+}

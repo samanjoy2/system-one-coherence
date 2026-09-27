@@ -1,0 +1,4 @@
+dataset,parents,children,examples
+clinc,10,150,1000
+massive,18,60,1000
+trec,6,50,500

@@ -1,0 +1,4 @@
+Dataset,Flat TV,Flat flip (\%),Marg. TV,Marg. flip (\%)
+TREC,0.042,1.7,0.040,3.3
+CLINC150,0.017,0.0,0.041,8.3
+MASSIVE,0.016,0.0,0.030,8.3

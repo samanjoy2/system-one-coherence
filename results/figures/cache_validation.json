@@ -1,0 +1,26 @@
+{
+  "jev": {
+    "questions": 36000,
+    "by_dataset": {
+      "clinc": 12000,
+      "massive": 20000,
+      "trec": 4000
+    },
+    "nonunit_sums": 1303,
+    "max_mass_error": 0.010000000000000009,
+    "mean_mass_error": 0.0003619444444444495,
+    "mean_zero_entries_flat": 90.4648
+  },
+  "laya": {
+    "questions": 36000,
+    "by_dataset": {
+      "clinc": 12000,
+      "massive": 20000,
+      "trec": 4000
+    },
+    "nonunit_sums": 15062,
+    "max_mass_error": 0.0017000000000000348,
+    "mean_mass_error": 5.972500000001092e-05,
+    "mean_zero_entries_flat": 8.1188
+  }
+}

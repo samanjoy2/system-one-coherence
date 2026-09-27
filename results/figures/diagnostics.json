@@ -1,0 +1,699 @@
+{
+  "groups": [
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "n": 500,
+      "both_correct": 274,
+      "lost": 87,
+      "gained": 28,
+      "both_wrong": 111,
+      "wrong_parent": 117,
+      "correct_parent_wrong_child": 98,
+      "hard_correct": 285,
+      "marginal_rescues_hard": 19,
+      "marginal_loses_hard": 2,
+      "conditional_accuracy_given_correct_parent": 0.7441253263707572,
+      "high_confidence_n": 169,
+      "high_confidence_errors": 13,
+      "high_confidence_accuracy": 0.9230769230769231,
+      "mean_signed_gold_shift": -0.14129941616161618,
+      "jsd_flat_correct": 0.14588987464765202,
+      "jsd_flat_wrong": 0.13031222105066753
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "n": 1000,
+      "both_correct": 660,
+      "lost": 250,
+      "gained": 21,
+      "both_wrong": 69,
+      "wrong_parent": 317,
+      "correct_parent_wrong_child": 37,
+      "hard_correct": 646,
+      "marginal_rescues_hard": 41,
+      "marginal_loses_hard": 6,
+      "conditional_accuracy_given_correct_parent": 0.9458272327964861,
+      "high_confidence_n": 849,
+      "high_confidence_errors": 28,
+      "high_confidence_accuracy": 0.967020023557126,
+      "mean_signed_gold_shift": -0.27915764822977246,
+      "jsd_flat_correct": 0.27219671649294,
+      "jsd_flat_wrong": 0.3740093486175909
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "n": 1000,
+      "both_correct": 651,
+      "lost": 182,
+      "gained": 18,
+      "both_wrong": 149,
+      "wrong_parent": 271,
+      "correct_parent_wrong_child": 70,
+      "hard_correct": 659,
+      "marginal_rescues_hard": 15,
+      "marginal_loses_hard": 5,
+      "conditional_accuracy_given_correct_parent": 0.9039780521262003,
+      "high_confidence_n": 735,
+      "high_confidence_errors": 43,
+      "high_confidence_accuracy": 0.9414965986394558,
+      "mean_signed_gold_shift": -0.19522190766248343,
+      "jsd_flat_correct": 0.17761155834764789,
+      "jsd_flat_wrong": 0.24236747966851174
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "n": 500,
+      "both_correct": 92,
+      "lost": 52,
+      "gained": 80,
+      "both_wrong": 276,
+      "wrong_parent": 54,
+      "correct_parent_wrong_child": 279,
+      "hard_correct": 167,
+      "marginal_rescues_hard": 7,
+      "marginal_loses_hard": 2,
+      "conditional_accuracy_given_correct_parent": 0.3744394618834081,
+      "high_confidence_n": 127,
+      "high_confidence_errors": 65,
+      "high_confidence_accuracy": 0.4881889763779528,
+      "mean_signed_gold_shift": 0.09716091639987735,
+      "jsd_flat_correct": 0.29209354239065216,
+      "jsd_flat_wrong": 0.4976170108026004
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "n": 1000,
+      "both_correct": 107,
+      "lost": 124,
+      "gained": 337,
+      "both_wrong": 432,
+      "wrong_parent": 596,
+      "correct_parent_wrong_child": 65,
+      "hard_correct": 339,
+      "marginal_rescues_hard": 106,
+      "marginal_loses_hard": 1,
+      "conditional_accuracy_given_correct_parent": 0.8391089108910891,
+      "high_confidence_n": 145,
+      "high_confidence_errors": 39,
+      "high_confidence_accuracy": 0.7310344827586207,
+      "mean_signed_gold_shift": 0.10525177341677833,
+      "jsd_flat_correct": 0.49576766682500784,
+      "jsd_flat_wrong": 0.619436402149451
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "n": 1000,
+      "both_correct": 132,
+      "lost": 106,
+      "gained": 198,
+      "both_wrong": 564,
+      "wrong_parent": 523,
+      "correct_parent_wrong_child": 148,
+      "hard_correct": 329,
+      "marginal_rescues_hard": 6,
+      "marginal_loses_hard": 5,
+      "conditional_accuracy_given_correct_parent": 0.689727463312369,
+      "high_confidence_n": 89,
+      "high_confidence_errors": 27,
+      "high_confidence_accuracy": 0.6966292134831461,
+      "mean_signed_gold_shift": 0.1028135142006984,
+      "jsd_flat_correct": 0.4644579336620759,
+      "jsd_flat_wrong": 0.6056990852177697
+    }
+  ],
+  "illustrative_cases": [
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "id": "trec:test:366",
+      "text": "What color does litmus paper turn when it comes into contact with a strong acid ?",
+      "gold": "ENTY:color",
+      "flat": "ENTY:color",
+      "marginal": "DESC:desc",
+      "gold_parent": "ENTY",
+      "coarse": "DESC",
+      "p_gold": 0.97,
+      "q_gold": 0.0756,
+      "coarse_gold": 0.09
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "id": "clinc:test:1118",
+      "text": "can you help me pay my electricity bill",
+      "gold": "pay_bill",
+      "flat": "pay_bill",
+      "marginal": "calculator",
+      "gold_parent": "banking",
+      "coarse": "utility",
+      "p_gold": 1.0,
+      "q_gold": 0.0,
+      "coarse_gold": 0.0
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "id": "massive:test:9691",
+      "text": "open audio book history of rome",
+      "gold": "play_audiobook",
+      "flat": "play_audiobook",
+      "marginal": "audio_volume_other",
+      "gold_parent": "play",
+      "coarse": "audio",
+      "p_gold": 1.0,
+      "q_gold": 0.0,
+      "coarse_gold": 0.0
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "id": "trec:test:37",
+      "text": "How far is the service line from the net in tennis ?",
+      "gold": "NUM:dist",
+      "flat": "ENTY:sport",
+      "marginal": "NUM:dist",
+      "gold_parent": "NUM",
+      "coarse": "NUM",
+      "p_gold": 0.00010001000100010003,
+      "q_gold": 0.9508304530453046,
+      "coarse_gold": 0.9659
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "id": "clinc:test:48",
+      "text": "transfer seventy dollars between national and citizens accounts",
+      "gold": "transfer",
+      "flat": "greeting",
+      "marginal": "transfer",
+      "gold_parent": "banking",
+      "coarse": "banking",
+      "p_gold": 0.0014994002399040384,
+      "q_gold": 0.9970010400000001,
+      "coarse_gold": 0.9974000000000001
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "id": "massive:test:2638",
+      "text": "show me news about trump",
+      "gold": "news_query",
+      "flat": "iot_wemo_off",
+      "marginal": "news_query",
+      "gold_parent": "news",
+      "coarse": "news",
+      "p_gold": 0.021295740851829635,
+      "q_gold": 0.9989,
+      "coarse_gold": 0.9989
+    }
+  ],
+  "top_confusions": [
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "LOC:other",
+      "predicted": "LOC:city",
+      "count": 14
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "LOC:other",
+      "predicted": "LOC:country",
+      "count": 6
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "DESC:def",
+      "predicted": "ENTY:dismed",
+      "count": 5
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "DESC:def",
+      "predicted": "ENTY:substance",
+      "count": 5
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "LOC:other",
+      "predicted": "ENTY:body",
+      "count": 5
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "HUM:ind",
+      "predicted": "HUM:desc",
+      "count": 15
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "DESC:def",
+      "predicted": "ENTY:substance",
+      "count": 10
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "HUM:ind",
+      "predicted": "HUM:title",
+      "count": 9
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "LOC:other",
+      "predicted": "LOC:city",
+      "count": 9
+    },
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "ABBR:exp",
+      "predicted": "ABBR:abb",
+      "count": 8
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "reminder_update",
+      "predicted": "reminder",
+      "count": 7
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "accept_reservations",
+      "predicted": "restaurant_reservation",
+      "count": 5
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "freeze_account",
+      "predicted": "account_blocked",
+      "count": 4
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "user_name",
+      "predicted": "what_is_your_name",
+      "count": 4
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "distance",
+      "predicted": "directions",
+      "count": 3
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "next_song",
+      "predicted": "text",
+      "count": 7
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "shopping_list",
+      "predicted": "ingredients_list",
+      "count": 7
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "rollover_401k",
+      "predicted": "transfer",
+      "count": 6
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "who_made_you",
+      "predicted": "no",
+      "count": 6
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "are_you_a_bot",
+      "predicted": "no",
+      "count": 5
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "iot_hue_lightup",
+      "predicted": "iot_hue_lightchange",
+      "count": 8
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "cooking_recipe",
+      "predicted": "cooking_query",
+      "count": 7
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "datetime_convert",
+      "predicted": "datetime_query",
+      "count": 6
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "music_likeness",
+      "predicted": "lists_createoradd",
+      "count": 6
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "takeaway_query",
+      "predicted": "takeaway_order",
+      "count": 5
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "iot_coffee",
+      "predicted": "cooking_query",
+      "count": 11
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "play_audiobook",
+      "predicted": "audio_volume_other",
+      "count": 11
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "cooking_recipe",
+      "predicted": "cooking_query",
+      "count": 10
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "play_radio",
+      "predicted": "audio_volume_other",
+      "count": 10
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "recommendation_events",
+      "predicted": "calendar_query",
+      "count": 9
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "DESC:def",
+      "predicted": "DESC:desc",
+      "count": 49
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "HUM:ind",
+      "predicted": "HUM:title",
+      "count": 16
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "LOC:other",
+      "predicted": "LOC:state",
+      "count": 11
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "LOC:other",
+      "predicted": "DESC:desc",
+      "count": 10
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "flat",
+      "gold": "DESC:def",
+      "predicted": "ENTY:dismed",
+      "count": 8
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "DESC:def",
+      "predicted": "DESC:desc",
+      "count": 94
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "HUM:ind",
+      "predicted": "HUM:title",
+      "count": 30
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "LOC:other",
+      "predicted": "LOC:country",
+      "count": 19
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "LOC:other",
+      "predicted": "LOC:city",
+      "count": 12
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "structure": "marginal",
+      "gold": "HUM:ind",
+      "predicted": "HUM:gr",
+      "count": 11
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "no",
+      "predicted": "what_can_i_ask_you",
+      "count": 6
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "order",
+      "predicted": "what_can_i_ask_you",
+      "count": 6
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "plug_type",
+      "predicted": "what_can_i_ask_you",
+      "count": 6
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "restaurant_suggestion",
+      "predicted": "what_can_i_ask_you",
+      "count": 6
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "flat",
+      "gold": "roll_dice",
+      "predicted": "what_can_i_ask_you",
+      "count": 6
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "meaning_of_life",
+      "predicted": "maybe",
+      "count": 7
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "bill_due",
+      "predicted": "date",
+      "count": 6
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "accept_reservations",
+      "predicted": "book_hotel",
+      "count": 5
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "change_accent",
+      "predicted": "greeting",
+      "count": 5
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "structure": "marginal",
+      "gold": "pay_bill",
+      "predicted": "make_call",
+      "count": 5
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "transport_ticket",
+      "predicted": "iot_wemo_off",
+      "count": 9
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "alarm_query",
+      "predicted": "alarm_set",
+      "count": 8
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "qa_factoid",
+      "predicted": "iot_wemo_off",
+      "count": 8
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "general_quirky",
+      "predicted": "iot_wemo_on",
+      "count": 7
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "flat",
+      "gold": "iot_cleaning",
+      "predicted": "iot_wemo_off",
+      "count": 7
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "alarm_query",
+      "predicted": "alarm_set",
+      "count": 18
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "iot_hue_lightup",
+      "predicted": "general_greet",
+      "count": 13
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "qa_definition",
+      "predicted": "general_greet",
+      "count": 13
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "iot_hue_lightchange",
+      "predicted": "general_greet",
+      "count": 12
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "structure": "marginal",
+      "gold": "qa_stock",
+      "predicted": "news_query",
+      "count": 12
+    }
+  ],
+  "case_selection": "Per model/dataset: greatest absolute gold-probability drift among Jev lost-correct or Laya gained-correct cases; ties by ID."
+}

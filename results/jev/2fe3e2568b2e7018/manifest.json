@@ -1,0 +1,47 @@
+{
+  "backend": {
+    "model": "jev-1.13.0",
+    "backend": "typesafe-http",
+    "precision": "provider"
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "requests": "2.34.2",
+    "transformers": "5.17.0",
+    "torch": "2.11.0+cu128",
+    "laya": "0.3.20",
+    "bitsandbytes": "0.50.2"
+  },
+  "python": "3.12.7",
+  "data": {
+    "seed": 42,
+    "sources": {
+      "clinc": {
+        "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/data/data_full.json",
+        "sha256": "36923c3705a59e08fe9c3883d8bc2dd966ef93e22cb78ac41171782a698d56e0"
+      },
+      "clinc_taxonomy": {
+        "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/data/domains.json",
+        "sha256": "b947b579d3b8e74b06f93b01083d8efaff2888b43a3e362533bd88a6e1211b3a"
+      },
+      "massive": {
+        "url": "https://amazon-massive-nlu-dataset.s3.amazonaws.com/amazon-massive-dataset-1.0.tar.gz",
+        "sha256": "7df623fd2d300a4d235d6ee5bd396c9a28258d3a0ccb29abdb054506eba153f8"
+      },
+      "trec": {
+        "url": "https://huggingface.co/datasets/CogComp/trec/resolve/65752bf53af25bc935a0dce92fb5b6c930728450/default/test/0000.parquet",
+        "sha256": "6aa889b0289e02760644caa22ac9aa833e79e34fb1f1ced69f745a078550c56e"
+      }
+    },
+    "examples_hash": "748293509615850497a41f65250e155ae91d0ae06dfe8d0d39ffc28a992fe86a",
+    "taxonomy_hash": "6b788f9032670b18fa9f819fdcbd97e4ce2ca59c2401bcdceea0db14b55ae4aa",
+    "counts": {
+      "clinc": 1000,
+      "massive": 1000,
+      "trec": 500
+    }
+  },
+  "protocol": "v1",
+  "permutation": 0,
+  "repeat": 2
+}

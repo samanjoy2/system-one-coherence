@@ -1,0 +1,179 @@
+{
+  "post_hoc": true,
+  "groups": [
+    {
+      "model": "jev",
+      "dataset": "trec",
+      "n": 500,
+      "flat": {
+        "ties": 6,
+        "accuracy": 0.722,
+        "tie_accuracy_low": 0.718,
+        "tie_accuracy_high": 0.726,
+        "ece": {
+          "10": 0.05928484848484849,
+          "15": 0.0581131313131313,
+          "20": 0.0653191919191919
+        }
+      },
+      "marginal": {
+        "ties": 3,
+        "accuracy": 0.604,
+        "tie_accuracy_low": 0.602,
+        "tie_accuracy_high": 0.608,
+        "ece": {
+          "10": 0.07829489090909092,
+          "15": 0.07869359393939393,
+          "20": 0.08485152121212121
+        }
+      },
+      "unique_text_n": 500,
+      "deduplicated_accuracy_change": -0.118
+    },
+    {
+      "model": "jev",
+      "dataset": "clinc",
+      "n": 1000,
+      "flat": {
+        "ties": 1,
+        "accuracy": 0.91,
+        "tie_accuracy_low": 0.909,
+        "tie_accuracy_high": 0.91,
+        "ece": {
+          "10": 0.016096464646464668,
+          "15": 0.020270404040404054,
+          "20": 0.029029797979797992
+        }
+      },
+      "marginal": {
+        "ties": 0,
+        "accuracy": 0.681,
+        "tie_accuracy_low": 0.681,
+        "tie_accuracy_high": 0.681,
+        "ece": {
+          "10": 0.04840716242220183,
+          "15": 0.0483136300479543,
+          "20": 0.057476421008060406
+        }
+      },
+      "unique_text_n": 1000,
+      "deduplicated_accuracy_change": -0.229
+    },
+    {
+      "model": "jev",
+      "dataset": "massive",
+      "n": 1000,
+      "flat": {
+        "ties": 0,
+        "accuracy": 0.833,
+        "tie_accuracy_low": 0.833,
+        "tie_accuracy_high": 0.833,
+        "ece": {
+          "10": 0.03210949494949497,
+          "15": 0.035737979797979824,
+          "20": 0.03280909090909093
+        }
+      },
+      "marginal": {
+        "ties": 1,
+        "accuracy": 0.669,
+        "tie_accuracy_low": 0.669,
+        "tie_accuracy_high": 0.67,
+        "ece": {
+          "10": 0.060351946750331606,
+          "15": 0.0613601467503316,
+          "20": 0.06481202294663811
+        }
+      },
+      "unique_text_n": 998,
+      "deduplicated_accuracy_change": -0.16332665330661322
+    },
+    {
+      "model": "laya",
+      "dataset": "trec",
+      "n": 500,
+      "flat": {
+        "ties": 0,
+        "accuracy": 0.288,
+        "tie_accuracy_low": 0.288,
+        "tie_accuracy_high": 0.288,
+        "ece": {
+          "10": 0.20269624327779576,
+          "15": 0.20269624327779576,
+          "20": 0.2112763473756403
+        }
+      },
+      "marginal": {
+        "ties": 0,
+        "accuracy": 0.344,
+        "tie_accuracy_low": 0.344,
+        "tie_accuracy_high": 0.344,
+        "ece": {
+          "10": 0.16455082822160558,
+          "15": 0.1692236936944803,
+          "20": 0.17334583515080354
+        }
+      },
+      "unique_text_n": 500,
+      "deduplicated_accuracy_change": 0.056
+    },
+    {
+      "model": "laya",
+      "dataset": "clinc",
+      "n": 1000,
+      "flat": {
+        "ties": 0,
+        "accuracy": 0.231,
+        "tie_accuracy_low": 0.231,
+        "tie_accuracy_high": 0.231,
+        "ece": {
+          "10": 0.15792914836706584,
+          "15": 0.16026042388344516,
+          "20": 0.1579291483670658
+        }
+      },
+      "marginal": {
+        "ties": 0,
+        "accuracy": 0.444,
+        "tie_accuracy_low": 0.444,
+        "tie_accuracy_high": 0.444,
+        "ece": {
+          "10": 0.07800585021058894,
+          "15": 0.08000416825309994,
+          "20": 0.08487849353809876
+        }
+      },
+      "unique_text_n": 1000,
+      "deduplicated_accuracy_change": 0.213
+    },
+    {
+      "model": "laya",
+      "dataset": "massive",
+      "n": 1000,
+      "flat": {
+        "ties": 0,
+        "accuracy": 0.238,
+        "tie_accuracy_low": 0.238,
+        "tie_accuracy_high": 0.238,
+        "ece": {
+          "10": 0.03589147481246042,
+          "15": 0.04617306098308747,
+          "20": 0.0453228431716408
+        }
+      },
+      "marginal": {
+        "ties": 0,
+        "accuracy": 0.33,
+        "tie_accuracy_low": 0.33,
+        "tie_accuracy_high": 0.33,
+        "ece": {
+          "10": 0.12018299671976301,
+          "15": 0.12399529502771095,
+          "20": 0.12433319359188826
+        }
+      },
+      "unique_text_n": 998,
+      "deduplicated_accuracy_change": 0.09318637274549098
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Dataset,Model,Flat TV,Flat flip (\%),Marg. TV,Marg. flip (\%)
+TREC,Jev,0.168,20.0,0.140,17.5
+TREC,Laya,0.483,63.3,0.220,40.0
+CLINC150,Jev,0.062,5.8,0.150,19.2
+CLINC150,Laya,0.569,64.4,0.365,42.2
+MASSIVE,Jev,0.069,5.8,0.097,14.2
+MASSIVE,Laya,0.448,74.4,0.252,25.6

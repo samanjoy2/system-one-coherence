@@ -1,0 +1,31 @@
+[project]
+name = "jev-coherence"
+version = "0.1.0"
+description = "Reproducible structural probability coherence evaluation"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy", "pandas", "pyarrow", "scipy", "scikit-learn", "matplotlib", "requests", "python-dotenv", "huggingface-hub", "pytest"]
+
+[project.optional-dependencies]
+local = ["torch", "transformers>=5", "accelerate", "bitsandbytes", "peft", "safetensors", "laya"]
+fast = ["flash-linear-attention>=0.5", "triton-windows>=3.6,<3.7; sys_platform == 'win32'"]
+
+[project.scripts]
+coherence = "coherence.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["coherence"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }

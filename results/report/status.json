@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "main_complete": true,
+  "audits_complete": true,
+  "preview": false,
+  "model_example_records": 5000,
+  "expected": 5000,
+  "active_categorical_models": [
+    "jev",
+    "laya"
+  ],
+  "excluded_models": [
+    "kev",
+    "qwen",
+    "span"
+  ],
+  "pending_protocol_models": []
+}

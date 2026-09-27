@@ -1,0 +1,75 @@
+{
+  "comparisons": 2700,
+  "runs": [
+    {
+      "model": "jev",
+      "permutation": 0,
+      "repeat": 2,
+      "precision": "provider",
+      "examples": 90
+    },
+    {
+      "model": "jev",
+      "permutation": 1,
+      "repeat": 0,
+      "precision": "provider",
+      "examples": 90
+    },
+    {
+      "model": "jev",
+      "permutation": 4,
+      "repeat": 0,
+      "precision": "provider",
+      "examples": 90
+    },
+    {
+      "model": "jev",
+      "permutation": 0,
+      "repeat": 1,
+      "precision": "provider",
+      "examples": 90
+    },
+    {
+      "model": "jev",
+      "permutation": 3,
+      "repeat": 0,
+      "precision": "provider",
+      "examples": 90
+    },
+    {
+      "model": "jev",
+      "permutation": 2,
+      "repeat": 0,
+      "precision": "provider",
+      "examples": 90
+    },
+    {
+      "model": "laya",
+      "permutation": 4,
+      "repeat": 0,
+      "precision": "fp32",
+      "examples": 90
+    },
+    {
+      "model": "laya",
+      "permutation": 3,
+      "repeat": 0,
+      "precision": "fp32",
+      "examples": 90
+    },
+    {
+      "model": "laya",
+      "permutation": 1,
+      "repeat": 0,
+      "precision": "fp32",
+      "examples": 90
+    },
+    {
+      "model": "laya",
+      "permutation": 2,
+      "repeat": 0,
+      "precision": "fp32",
+      "examples": 90
+    }
+  ]
+}
